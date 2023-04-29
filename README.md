@@ -64,7 +64,7 @@ to its constructor.
 What we want to show here is that both, Flink components (Sources, Sinks etc.) as well as business code (`EventProducer<Order>`)
 can be injected by this library.
 
-For now, more detailed example can be found [here](https://github.com/kristoffSC/flink-using-springDI/tree/main/FlinkPipeline).
+For now, more detailed example can be found [here](https://github.com/kristoffSC/flink-using-springDI).
 
 #### The main class
 This class will have all its dependencies marked as `@Autowired` injected by Spring based on
